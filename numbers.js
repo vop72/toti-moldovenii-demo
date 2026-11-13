@@ -74,7 +74,7 @@
   Object.keys(T).forEach(l => {
     const t = T[l];
     t.shares = shares.map(s => ({ n: s[L[l]], v: s[3] + '%', w: (s[3] / 25 * 100) + '%' }));
-    t.trend = trendRaw.map((r, i) => ({ y: r[0], v: trendLbl[l][i], h: (r[1] / 1160000 * 100).toFixed(1) + '%', fill: r[0] === 2024 ? '#7A1F2B' : '#C9C6C0' }));
+    t.trend = trendRaw.map((r, i) => ({ y: r[0], v: trendLbl[l][i], h: (r[1] / 1160000 * 100).toFixed(1) + '%', fill: r[0] === 2024 ? '#A3182B' : '#C9C6C0' }));
     t.remit = t.remit.map(r => ({ ...r, txt: fmt[l](r.v) + '%', w: (r.v / 34.5 * 100) + '%' }));
     t.off = t.off.map(o => ({ ...o, hasU: !!o.u, noU: !o.u, hasFlag: !!o.flag }));
     t.sources = [

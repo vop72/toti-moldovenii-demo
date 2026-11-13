@@ -24,7 +24,7 @@ const q = new URLSearchParams(location.search);
 const theme = q.get('theme') || 'a', mode = q.get('mode') || 'mini', lang = q.get('lang') || 'ro';
 const P = theme === 'a'
   ? { land: '#E4D8C3', edge: '#F4EDE1', dot: '#6E1F2B', sel: '#C8102E', arc: '#A86F1E', home: '#0046AE', ink: '#262422', tipBg: '#262422', tipInk: '#FAF6EF', ramp: ['#E9D9C0', '#6E1F2B'], font: "'Golos Text',system-ui,sans-serif", btn: '#FAF6EF' }
-  : { land: '#E6E4DF', edge: '#FBFAF8', dot: '#1F2328', sel: '#C8102E', arc: '#7A1F2B', home: '#7A1F2B', ink: '#1F2328', tipBg: '#1F2328', tipInk: '#FFFFFF', ramp: ['#EDDCDD', '#7A1F2B'], font: "'Onest',system-ui,sans-serif", btn: '#FFFFFF' };
+  : { land: '#E6E4DF', edge: '#FBFAF8', dot: '#1A2440', sel: '#C8102E', arc: '#A3182B', home: '#A3182B', ink: '#1A2440', tipBg: '#1A2440', tipInk: '#FFFFFF', ramp: ['#F3D9DC', '#A3182B'], font: "'Onest',system-ui,sans-serif", btn: '#FFFFFF' };
 document.documentElement.style.setProperty('--f', P.font);
 const { COMMUNITIES, COUNTRIES, HOME } = window.TM;
 const svg = d3.select('#m'), tip = document.getElementById('tip');

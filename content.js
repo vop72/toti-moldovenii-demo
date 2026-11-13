@@ -1,14 +1,14 @@
 (function () {
   const T = {
     ro: {
-      brand: 'Toți Moldovenii', brandSub: 'All Moldovans',
+      brand: 'Congresul Mondial al Moldovenilor', brandSub: 'CMM.md',
       nav: { home: 'Acasă', about: 'Despre noi', congress: 'Congresul 2027', communities: 'Comunități', numbers: 'Diaspora în cifre' },
       join: 'Alătură-te', menu: 'Meniu', close: 'Închide',
       about: {"eyebrow": "Despre noi", "mission": "Unim moldovenii din Moldova și din toată lumea, ca vocea fiecăruia să fie auzită în deciziile despre viitorul țării — oriunde ar trăi.", "whoT": "Pe cine numim moldoveni din diaspora", "who": "Pentru noi, moldovenii din diaspora sunt cetățenii Moldovei care trăiesc peste hotare, toți cei originari din Moldova și descendenții lor.", "whoSrc": "Strategia națională «Diaspora-2025», HG nr. 200/2016", "pilT": "Trei direcții", "pilD": "Ce facem concret", "pil": [{"t": "Vocea", "d": "Adunăm problemele și propunerile oamenilor de acasă și de peste hotare și pregătim, după Congres, un apel către autorități."}, {"t": "Legătura", "d": "Comunități pe țări și orașe, coordonatori, întâlniri."}, {"t": "Revenirea (Acasă)", "d": "Informație și sprijin pentru cei care vor să revină, să investească sau să-și ajute satul natal."}], "prT": "Principiile noastre", "pr": [{"t": "Independență", "d": "Nu depindem de partide, instituții sau finanțatori care ne-ar dicta agenda."}, {"t": "Nepartinic", "d": "Nu susținem niciun partid sau candidat; vorbim despre probleme, nu despre politicieni."}, {"t": "Deschidere", "d": "Spunem public ce facem, cu cine și pe ce bani."}, {"t": "Respect", "d": "Sunt bineveniți toți cei care se simt parte din Moldova — oricare le-ar fi limba sau originea."}], "teamT": "Echipa și documente", "team": [{"t": "Echipa", "d": "Oamenii din spatele inițiativei"}, {"t": "Documentele organizației", "d": "Statut, certificat de înregistrare"}, {"t": "Rechizite", "d": "Date juridice ale ONG-ului"}], "soon": "În curând", "ctaT": "Construim împreună", "ctaD": "Alătură-te ca să participi la pregătirea Congresului și la viața comunității din orașul tău."},
       hero: {
         eyebrow: 'Moldoveni acasă și în lume',
         title: 'Acasă sau departe — o singură Moldovă',
-        sub: 'Platforma moldovenilor din Moldova și din toată lumea. Împreună — spre Congresul Moldovenilor 2027.',
+        sub: 'Platforma moldovenilor din Moldova și din toată lumea. Împreună — spre Congresul Mondial al Moldovenilor 2027.',
         cta2: 'Despre Congres'
       },
       stats: {
@@ -30,16 +30,16 @@
         ]
       },
       cd: {
-        eyebrow: 'Congresul Moldovenilor', title: 'Congresul Moldovenilor 2027',
+        eyebrow: 'Congresul Mondial al Moldovenilor', title: 'Congresul Mondial al Moldovenilor 2027',
         d: 'Moldovenii de acasă și de peste hotare, în același loc: muncă, acte, implicarea în viața țării, revenirea, educația copiilor — și un apel comun către autorități.',
         when: 'Data și locul — în curând', days: 'zile', hours: 'ore', min: 'minute', sec: 'secunde',
         cta: 'Pre-înregistrare'
       },
       mapT: { eyebrow: 'Harta comunităților', title: 'Suntem deja în peste 50 de țări', d: 'Harta crește odată cu fiecare înregistrare: o comunitate apare când dintr-un oraș se adună suficienți oameni.', cta: 'Vezi toate comunitățile' },
       final: { title: 'Ești parte din Moldova, oriunde ai fi.', d: 'Alătură-te și află primul despre Congres, întâlnirile din orașul tău și proiectele comune.', ph: 'Adresa ta de e-mail', cta: 'Alătură-te' },
-      footer: { about: 'Organizație non-profit care unește moldovenii de acasă și din diasporă.', contact: 'Contact', follow: 'Urmărește-ne', rights: '© 2026 Toți Moldovenii · Asociație obștească', privacy: 'Confidențialitate', a11y: 'Accesibilitate' },
+      footer: { about: 'Organizație non-profit care unește moldovenii de acasă și din diasporă.', contact: 'Contact', follow: 'Urmărește-ne', rights: '© 2026 Congresul Mondial al Moldovenilor · Asociație obștească', privacy: 'Confidențialitate', a11y: 'Accesibilitate' },
       congress: {
-        eyebrow: 'Congresul Moldovenilor 2027', title: 'Trei zile pentru o Moldovă care se aude de oriunde',
+        eyebrow: 'Congresul Mondial al Moldovenilor 2027', title: 'Trei zile pentru o Moldovă care se aude de oriunde',
         lead: 'Congresul este o întâlnire deschisă între moldovenii din diasporă, cei de acasă, autoritățile locale și societatea civilă. Fără discursuri lungi: ateliere, mese rotunde și angajamente concrete.',
         whyT: 'De ce un Congres',
         why: [
@@ -70,14 +70,14 @@
       }
     },
     ru: {
-      brand: 'Все молдаване', brandSub: 'Toți Moldovenii',
+      brand: 'Всемирный конгресс молдаван', brandSub: 'CMM.md',
       nav: { home: 'Главная', about: 'О нас', congress: 'Конгресс 2027', communities: 'Общины', numbers: 'Диаспора в цифрах' },
       join: 'Присоединиться', menu: 'Меню', close: 'Закрыть',
       about: {"eyebrow": "О нас", "mission": "Объединить молдаван в Молдове и по всему миру, чтобы голос каждого был услышан в решениях о будущем страны — где бы он ни жил.", "whoT": "Кого мы называем молдаванами диаспоры", "who": "Для нас молдаване диаспоры — это граждане Молдовы за рубежом, все выходцы из Молдовы и их потомки.", "whoSrc": "Национальная стратегия «Diaspora-2025», ПП №200/2016", "pilT": "Три направления", "pilD": "Что мы делаем", "pil": [{"t": "Голос", "d": "Собираем проблемы и предложения людей дома и за рубежом, готовим обращение к власти по итогам Конгресса."}, {"t": "Связь", "d": "Общины по странам и городам, координаторы, встречи."}, {"t": "Возвращение (Acasă)", "d": "Информация и поддержка для тех, кто хочет вернуться, инвестировать или помогать родному селу."}], "prT": "Наши принципы", "pr": [{"t": "Независимость", "d": "Не зависим от партий, ведомств или спонсоров, которые диктовали бы нам повестку."}, {"t": "Внепартийность", "d": "Не поддерживаем ни одну партию или кандидата: говорим о проблемах, а не о политиках."}, {"t": "Открытость", "d": "Публично рассказываем, что делаем, с кем и на какие деньги."}, {"t": "Уважение", "d": "Рады всем, кто считает себя частью Молдовы, — на каком бы языке он ни говорил и откуда бы ни был родом."}], "teamT": "Команда и документы", "team": [{"t": "Команда", "d": "Люди, которые стоят за инициативой"}, {"t": "Документы организации", "d": "Устав, свидетельство о регистрации"}, {"t": "Реквизиты", "d": "Юридические данные НКО"}], "soon": "Скоро", "ctaT": "Строим вместе", "ctaD": "Присоединяйся, чтобы участвовать в подготовке Конгресса и в жизни общины своего города."},
       hero: {
         eyebrow: 'Молдаване дома и в мире',
         title: 'Дома или далеко — одна Молдова',
-        sub: 'Платформа молдаван в Молдове и по всему миру. Вместе — к Конгрессу молдаван 2027.',
+        sub: 'Платформа молдаван в Молдове и по всему миру. Вместе — к Всемирному конгрессу молдаван 2027.',
         cta2: 'О Конгрессе'
       },
       stats: {
@@ -99,16 +99,16 @@
         ]
       },
       cd: {
-        eyebrow: 'Конгресс молдаван', title: 'Конгресс молдаван 2027',
+        eyebrow: 'Всемирный конгресс молдаван', title: 'Всемирный конгресс молдаван 2027',
         d: 'Молдаване из Молдовы и из-за рубежа в одном месте: работа, документы, участие в жизни страны, возвращение, образование детей — и общее обращение к власти.',
         when: 'Дата и место — скоро', days: 'дней', hours: 'часов', min: 'минут', sec: 'секунд',
         cta: 'Предрегистрация'
       },
       mapT: { eyebrow: 'Карта общин', title: 'Мы уже более чем в 50 странах', d: 'Карта растёт с каждой регистрацией: община появляется, когда из города набирается достаточно людей.', cta: 'Все общины' },
       final: { title: 'Ты — часть Молдовы, где бы ты ни был.', d: 'Присоединяйся и первым узнавай о Конгрессе, встречах в твоём городе и общих проектах.', ph: 'Ваш e-mail', cta: 'Присоединиться' },
-      footer: { about: 'Некоммерческая организация, объединяющая молдаван дома и в диаспоре.', contact: 'Контакты', follow: 'Мы в соцсетях', rights: '© 2026 Toți Moldovenii · Общественная ассоциация', privacy: 'Конфиденциальность', a11y: 'Доступность' },
+      footer: { about: 'Некоммерческая организация, объединяющая молдаван дома и в диаспоре.', contact: 'Контакты', follow: 'Мы в соцсетях', rights: '© 2026 Congresul Mondial al Moldovenilor · Общественная ассоциация', privacy: 'Конфиденциальность', a11y: 'Доступность' },
       congress: {
-        eyebrow: 'Конгресс молдаван 2027', title: 'Три дня для Молдовы, которую слышно отовсюду',
+        eyebrow: 'Всемирный конгресс молдаван 2027', title: 'Три дня для Молдовы, которую слышно отовсюду',
         lead: 'Конгресс — открытая встреча молдаван диаспоры, тех, кто дома, местных властей и гражданского общества. Без долгих речей: мастерские, круглые столы и конкретные обязательства.',
         whyT: 'Зачем Конгресс',
         why: [
@@ -139,14 +139,14 @@
       }
     },
     en: {
-      brand: 'All Moldovans', brandSub: 'Toți Moldovenii',
+      brand: 'World Congress of Moldovans', brandSub: 'CMM.md',
       nav: { home: 'Home', about: 'About', congress: 'Congress 2027', communities: 'Communities', numbers: 'Diaspora in numbers' },
       join: 'Join us', menu: 'Menu', close: 'Close',
       about: {"eyebrow": "About us", "mission": "We unite Moldovans at home and around the world so that every voice is heard in decisions about the country’s future — wherever they live.", "whoT": "Who we mean by the Moldovan diaspora", "who": "For us, the Moldovan diaspora means Moldovan citizens living abroad, everyone who comes from Moldova, and their descendants.", "whoSrc": "National Strategy “Diaspora-2025”, Government Decision No. 200/2016", "pilT": "Three directions", "pilD": "What we do", "pil": [{"t": "Voice", "d": "We gather the problems and proposals of people at home and abroad and prepare an appeal to the authorities after the Congress."}, {"t": "Connection", "d": "Communities by country and city, coordinators, meetups."}, {"t": "Return (Acasă)", "d": "Information and support for those who want to return, invest or help their home village."}], "prT": "Our principles", "pr": [{"t": "Independence", "d": "We do not depend on parties, institutions or funders who could dictate our agenda."}, {"t": "Non-partisanship", "d": "We back no party or candidate: we talk about problems, not politicians."}, {"t": "Openness", "d": "We say publicly what we do, with whom and on what money."}, {"t": "Respect", "d": "Everyone who feels part of Moldova is welcome — whatever their language or origin."}], "teamT": "Team and documents", "team": [{"t": "Team", "d": "The people behind the initiative"}, {"t": "Organisation documents", "d": "Statute, registration certificate"}, {"t": "Legal details", "d": "The NGO’s legal data"}], "soon": "Coming soon", "ctaT": "Let’s build it together", "ctaD": "Join to take part in preparing the Congress and in the life of the community in your city."},
       hero: {
         eyebrow: 'Moldovans at home and around the world',
         title: 'At home or far away — one Moldova',
-        sub: 'The platform for Moldovans at home and around the world. Together — towards the 2027 Congress of Moldovans.',
+        sub: 'The platform for Moldovans at home and around the world. Together — towards the 2027 World Congress of Moldovans.',
         cta2: 'About the Congress'
       },
       stats: {
@@ -168,16 +168,16 @@
         ]
       },
       cd: {
-        eyebrow: 'Congress of Moldovans', title: 'Congress of Moldovans 2027',
+        eyebrow: 'World Congress of Moldovans', title: 'World Congress of Moldovans 2027',
         d: 'Moldovans from home and abroad in one place: work, documents, taking part in the life of the country, return, children’s education — and a joint appeal to the authorities.',
         when: 'Date and venue — coming soon', days: 'days', hours: 'hours', min: 'minutes', sec: 'seconds',
         cta: 'Pre-register'
       },
       mapT: { eyebrow: 'Community map', title: 'We are already in 50+ countries', d: 'The map grows with every registration: a community appears once enough people from a city have joined.', cta: 'See all communities' },
       final: { title: 'You are part of Moldova, wherever you are.', d: 'Join to be the first to hear about the Congress, meetups in your city and shared projects.', ph: 'Your email address', cta: 'Join us' },
-      footer: { about: 'A non-profit bringing together Moldovans at home and in the diaspora.', contact: 'Contact', follow: 'Follow us', rights: '© 2026 Toți Moldovenii · Non-profit association', privacy: 'Privacy', a11y: 'Accessibility' },
+      footer: { about: 'A non-profit bringing together Moldovans at home and in the diaspora.', contact: 'Contact', follow: 'Follow us', rights: '© 2026 Congresul Mondial al Moldovenilor · Non-profit association', privacy: 'Privacy', a11y: 'Accessibility' },
       congress: {
-        eyebrow: 'Congress of Moldovans 2027', title: 'Three days for a Moldova that is heard from everywhere',
+        eyebrow: 'World Congress of Moldovans 2027', title: 'Three days for a Moldova that is heard from everywhere',
         lead: 'The Congress is an open meeting of Moldovans in the diaspora, those at home, local authorities and civil society. No long speeches: workshops, round tables and concrete commitments.',
         whyT: 'Why a Congress',
         why: [
@@ -296,7 +296,7 @@
     country: cById[c[4]].n, region: cById[c[4]].r,
     members: [1200, 340, 860, 210, 480, 2100, 150, 640, 390, 920][i % 10] + (i * 37) % 200,
     coord: coords[i % coords.length], since: 2008 + (i * 3) % 15, event: ev[i % ev.length],
-    email: c[0] + '@totimoldovenii.md'
+    email: c[0] + '@cmm.md'
   }));
   COUNTRIES.forEach(c => { c.cities = COMMUNITIES.filter(m => m.cid === c.id).length; });
 
