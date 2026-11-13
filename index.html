@@ -11,12 +11,12 @@
 <title>CMM.md — Congresul Mondial al Moldovenilor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Onest:wght@300;400;500;600&display=swap">
-<script src="content.js"></script>
-<script src="numbers.js"></script>
-<script src="congress.js"></script>
-<script src="group.js"></script>
-<script src="donate.js"></script>
-<script src="image-slot.js"></script>
+<script src="content.js?v=cmm1"></script>
+<script src="numbers.js?v=cmm1"></script>
+<script src="congress.js?v=cmm1"></script>
+<script src="group.js?v=cmm1"></script>
+<script src="donate.js?v=cmm1"></script>
+<script src="image-slot.js?v=cmm1"></script>
 <style>
 body{margin:0;background:#FBFAF8;color:#1A2440;font-family:'Onest',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:#A3182B;text-underline-offset:3px}
@@ -855,7 +855,7 @@ class Component extends DCLogic {
       aboutPillars: t.about.pil.map((it, i) => ({ ...it, n: '0' + (i + 1), ...ICONS[['voice', 'link', 'ret'][i]] })),
       pillars: t.pillars.items.map((it, i) => ({ ...it, n: '0' + (i + 1), ...ICONS[['voice', 'link', 'ret'][i]] })),
       why: t.congress.why.map((w, i) => ({ ...w, n: '0' + (i + 1) })),
-      mapMini: `map.html?theme=b&mode=mini&lang=${lang}`, mapFull: `map.html?theme=b&mode=full&lang=${lang}`, mapChoro: `map.html?theme=b&mode=choro&lang=${lang}`,
+      mapMini: `map.html?v=cmm1&theme=b&mode=mini&lang=${lang}`, mapFull: `map.html?v=cmm1&theme=b&mode=full&lang=${lang}`, mapChoro: `map.html?v=cmm1&theme=b&mode=choro&lang=${lang}`,
       mapRef: el => { this.mapEl = el; }, onMapLoad: () => this.postSel(),
       notJoined: !st.joined, joined: st.joined, onJoin: e => { e.preventDefault(); this.setState({ joined: true }); },
       notSent: !st.sent, sent: st.sent, onReg: e => { e.preventDefault(); this.setState({ sent: true }); }, resetForm: () => this.setState({ sent: false }),
